@@ -1,11 +1,10 @@
-import React, {Fragment} from 'react';
+import React from 'react';
 import './App.css';
+import SongContainer from './containers/SongContainer';
 
 function App() {
   return (
-    <Fragment>
-      
-    </Fragment>
+    <SongContainer/>
   );
 }
 
