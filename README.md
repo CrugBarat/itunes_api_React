@@ -1,68 +1,48 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<img src="https://github.com/CrugBarat/my_files/blob/master/iTunes/tunes1.png" height="350"> <img src="https://github.com/CrugBarat/my_files/blob/master/iTunes/tunes2.png" height="350">
+<img src="https://github.com/CrugBarat/my_files/blob/master/iTunes/tunes3.png" height="350">
 
-## Available Scripts
+# iTunes API
 
-In the project directory, you can run:
+A basic list app built using:
 
-### `npm start`
+**Programming Language**: JavaScript
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+**Web App Framework**: React
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+**Markup/Styling**: HTML5/CSS3
 
-### `npm test`
+**Data**: [iTunes API](https://developer.apple.com/documentation/applemusicapi)
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The app fetches data from a the iTunes API and displays the top 80 songs in UK. The data displayed includes: song artwork, artist, title, release date, price and song preview (all of which link to iTunes site, where the song can be purchased or added to a playlist).
 
-### `npm run build`
+This exercise was tasked to me by CodeClan, Glasgow where I studied towards a PDA Level 8 in Professional Software Development. The exercise brief can be found below.
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+# Brief
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Make a simple React app that displays the current UK top 20 songs. You are required to use a stateless component as part of your app.
 
-### `npm run eject`
+**MVP**
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- Request the data, then display the list of songs with each song showing its chart position, title and artist
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+**Extensions**
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- Add more information - you could include images or the preview song audio clips
+- Style this nicely with CSS.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+---
 
-## Learn More
+# Setup
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- Download/Clone the repo
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- In Terminal, access the itunes-api directory and run:
 
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+```
+npm install
+```
+```
+npm start
+```
