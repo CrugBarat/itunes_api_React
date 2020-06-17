@@ -1,5 +1,4 @@
-<img src="https://github.com/CrugBarat/my_files/blob/master/iTunes/tunes1.png" height="350"> <img src="https://github.com/CrugBarat/my_files/blob/master/iTunes/tunes2.png" height="350">
-<img src="https://github.com/CrugBarat/my_files/blob/master/iTunes/tunes3.png" height="350">
+<img src="https://github.com/CrugBarat/my_files/blob/master/iTunes/tunes1.png" height="450"> <img src="https://github.com/CrugBarat/my_files/blob/master/iTunes/tunes3.png" height="450">
 
 # iTunes API
 
