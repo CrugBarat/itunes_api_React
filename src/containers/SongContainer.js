@@ -3,8 +3,8 @@ import SongList from '../components/SongList';
 import apple from '../apple.png'
 
 class SongContainer extends Component {
-  constructor(props) {
-    super(props);
+  constructor() {
+    super();
 
     this.state ={
       songs: [],
