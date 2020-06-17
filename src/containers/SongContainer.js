@@ -1,4 +1,5 @@
 import React, {Component, Fragment} from 'react';
+import SongList from '../components/SongList';
 
 class SongContainer extends Component {
   constructor(props) {
@@ -19,6 +20,7 @@ class SongContainer extends Component {
   render(){
     return(
       <Fragment>
+        <SongList songs={this.state.songs}/>
       </Fragment>
     )
   }
